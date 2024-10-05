@@ -1,9 +1,9 @@
 ---
-title: Welcome to Quartz
+title: CS scrolls
+publish: true
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+This website contains my notes about Computer Science, programming, DevOps, ...
 
 
 # Systems 
