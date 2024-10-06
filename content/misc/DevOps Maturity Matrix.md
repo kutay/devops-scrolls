@@ -1,91 +1,95 @@
 
 
-| Category              | Name                                                                                           | Maturity/10 | URL                               |
-| --------------------- | ---------------------------------------------------------------------------------------------- | ----------- | --------------------------------- |
-|                       | [[Ansible]]                                                                                    |             |                                   |
-| GitOps                | [[ArgoCD]]                                                                                     | 10          |                                   |
-|                       | [[Checkov]]                                                                                    |             |                                   |
-| CI/CD                 | [[Concourse]]                                                                                  | 3           |                                   |
-|                       | [[Crossplane]]                                                                                 |             |                                   |
-|                       | [[Dagger]]                                                                                     | 5           |                                   |
-|                       | [[Dapr]]                                                                                       | 1           |                                   |
-|                       | [[DefectDojo]]                                                                                 |             |                                   |
-|                       | [[GUIDE101 - Knative]]                                                                         |             |                                   |
-|                       | [[Helm]]                                                                                       |             |                                   |
-|                       | [[Helmfile]]                                                                                   |             |                                   |
-| Secret Management     | [[Infisical]]                                                                                  |             |                                   |
-|                       | [[Kaniko]]                                                                                     | 2           |                                   |
-|                       | [[Kopia]]                                                                                      |             |                                   |
-|                       | [[KubeVela]]                                                                                   | 2           | https://kubevela.io/docs/         |
-|                       | [[Kustomize]]                                                                                  |             |                                   |
-|                       | [[Logstash]]                                                                                   |             |                                   |
-|                       | [[MOC cdk8s]]                                                                                  | 1           |                                   |
-|                       | [[MOC Kafka]]                                                                                  |             |                                   |
-| Infra as code         | [[MOC Terraform]]                                                                              | 10          |                                   |
-| Secret Management     | [[MOC Vault]]                                                                                  | 10          |                                   |
-| Overlay Network       | [[00_Inbox/Nebula\|Nebula]]                                                                    | 6           |                                   |
-|                       | [[Neuvector]]                                                                                  |             |                                   |
-|                       | [[Prometheus]]                                                                                 |             |                                   |
-|                       | [[Pulumi]]                                                                                     |             |                                   |
-|                       | [[Restic]]                                                                                     |             |                                   |
-|                       | [[Tekton Pipelines]]                                                                           |             |                                   |
-|                       | [[Terragrunt]]                                                                                 |             |                                   |
-|                       | [[Terrakube]]                                                                                  |             |                                   |
-|                       | [[Terramate]]                                                                                  |             |                                   |
-|                       | [[Tool - Werf]]                                                                                |             |                                   |
-| Vulnerability scanner | [[Trivy]]                                                                                      |             |                                   |
-|                       | [[Vector]]                                                                                     |             |                                   |
-| Backup                | [[Velero]]                                                                                     |             |                                   |
-|                       | [[VictoriaMetrics]]                                                                            |             |                                   |
-|                       | [[OpenEBS]]                                                                                    |             |                                   |
-|                       | [[Rook]]                                                                                       |             |                                   |
-|                       | [[MetalLB]]                                                                                    |             |                                   |
-|                       | [[Istio]]                                                                                      |             |                                   |
-|                       | [[00_Inbox/Linkerd\|Linkerd]]                                                                  |             |                                   |
-|                       | [[Cilium]]                                                                                     |             |                                   |
-|                       | [[Calico]]                                                                                     |             |                                   |
-|                       | [[Hubble]]                                                                                     |             |                                   |
-|                       | [[TriggerMesh]]                                                                                |             | https://www.triggermesh.com/      |
-|                       | [[GUIDE101 - OpenFeature]]                                                                     |             |                                   |
-|                       | [[Backstage]]                                                                                  |             |                                   |
-|                       | [[RabbitMQ]]                                                                                   |             |                                   |
-|                       | [[MOC Redis]]                                                                                  |             |                                   |
-|                       | [[PostgreSQL]]                                                                                 | 9           |                                   |
-|                       | [[MySQL]]                                                                                      |             |                                   |
-|                       | [[MongoDB]]                                                                                    |             |                                   |
-|                       | [[gVisor]]                                                                                     |             |                                   |
-|                       | [[kubespy]]                                                                                    |             | https://github.com/pulumi/kubespy |
-|                       | [[00_Inbox/obsidian-cs-notes/VaultComputerScience/30_areas/virtualization/KubeVirt\|KubeVirt]] |             |                                   |
-|                       | [[Skaffold]]                                                                                   |             |                                   |
-|                       | [[Tilt]]                                                                                       |             |                                   |
-|                       | [[Ansible Navigator]]                                                                          |             |                                   |
-|                       | [[Rundeck]]                                                                                    |             |                                   |
-|                       | [[etcd]]                                                                                       |             |                                   |
-|                       | [[Elasticsearch]]                                                                              |             |                                   |
-|                       | [[Lucene]]                                                                                     |             |                                   |
-|                       | [[Apache Solr]]                                                                                |             |                                   |
-|                       | [[Apache Airflow]]                                                                             |             |                                   |
-|                       | [[Firecracker]]                                                                                |             |                                   |
-|                       | [[Keycloak]]                                                                                   |             |                                   |
-|                       | [[Athenz]]                                                                                     |             |                                   |
-|                       | [[Tool - coroot]]                                                                              |             |                                   |
-|                       | [[Wazuh]]                                                                                      |             |                                   |
-|                       | [[Ahoy]]                                                                                       |             |                                   |
-|                       | [[Cedar]]                                                                                      |             |                                   |
-|                       | [[Kyverno]]                                                                                    |             |                                   |
-|                       | [[Open Policy Agent]]                                                                          |             |                                   |
-|                       | [[Harbor]]                                                                                     |             |                                   |
-|                       | [[OpenZiti]]                                                                                   |             |                                   |
-|                       | [[ArcherySec]]                                                                                 |             |                                   |
-|                       | [[Zuul CI]]                                                                                    |             |                                   |
-|                       | [[Semaphore]]                                                                                  |             |                                   |
-|                       | [[Flagger]]                                                                                    |             |                                   |
-|                       | [[RabbitMQ]]                                                                                   | 8           |                                   |
-|                       | [[Kratix]]                                                                                     |             | https://docs.kratix.io/           |
-|                       | [[Keptn]]                                                                                      |             | https://keptn.sh/                 |
-|                       | [[Radius]]                                                                                     |             | https://radapp.io/                |
-|                       | [[vCluster]]                                                                                   | 2           | https://www.vcluster.com/         |
-|                       | [[Dex]]                                                                                        |             | https://dexidp.io/                |
+| Category              | Name                                                                                           | Maturity/10 | URL                                  |
+| --------------------- | ---------------------------------------------------------------------------------------------- | ----------- | ------------------------------------ |
+|                       | [[Ahoy]]                                                                                       |             |                                      |
+| Automation            | [[Ansible]]                                                                                    | 10          |                                      |
+| Automation            | [[Ansible Navigator]]                                                                          |             |                                      |
+|                       | [[Apache Airflow]]                                                                             |             |                                      |
+| Search                | [[Apache Solr]]                                                                                |             |                                      |
+|                       | [[ArcherySec]]                                                                                 |             |                                      |
+| GitOps                | [[ArgoCD]]                                                                                     | 10          |                                      |
+|                       | [[Athenz]]                                                                                     |             |                                      |
+|                       | [[Backstage]]                                                                                  |             |                                      |
+| Networking            | [[Calico]]                                                                                     |             |                                      |
+|                       | [[Cedar]]                                                                                      |             |                                      |
+|                       | [[Checkov]]                                                                                    |             |                                      |
+| Networking            | [[Cilium]]                                                                                     |             |                                      |
+| CI/CD                 | [[Concourse]]                                                                                  | 3           |                                      |
+| Infra as code         | [[Crossplane]]                                                                                 |             |                                      |
+|                       | [[Dagger]]                                                                                     | 5           |                                      |
+|                       | [[Dapr]]                                                                                       | 1           |                                      |
+| DevSecOps             | [[DefectDojo]]                                                                                 |             |                                      |
+| IDP                   | [[Dex]]                                                                                        |             | https://dexidp.io/                   |
+| Search                | [[Elasticsearch]]                                                                              |             |                                      |
+|                       | [[etcd]]                                                                                       |             |                                      |
+| Virtualization        | [[Firecracker]]                                                                                |             |                                      |
+|                       | [[Flagger]]                                                                                    |             |                                      |
+|                       | [[GUIDE101 - Knative]]                                                                         |             |                                      |
+|                       | [[GUIDE101 - OpenFeature]]                                                                     |             |                                      |
+|                       | [[gVisor]]                                                                                     |             |                                      |
+|                       | [[Harbor]]                                                                                     |             |                                      |
+|                       | [[Helm]]                                                                                       |             |                                      |
+|                       | [[Helmfile]]                                                                                   |             |                                      |
+|                       | [[Hubble]]                                                                                     |             |                                      |
+| Secret Management     | [[Infisical]]                                                                                  |             |                                      |
+|                       | [[Istio]]                                                                                      |             |                                      |
+|                       | [[Kaniko]]                                                                                     | 2           |                                      |
+|                       | [[Keptn]]                                                                                      |             | https://keptn.sh/                    |
+|                       | [[Keycloak]]                                                                                   |             |                                      |
+|                       | [[Kopia]]                                                                                      |             |                                      |
+|                       | [[Kratix]]                                                                                     |             | https://docs.kratix.io/              |
+|                       | [[kubespy]]                                                                                    |             | https://github.com/pulumi/kubespy    |
+|                       | [[KubeVela]]                                                                                   | 2           | https://kubevela.io/docs/            |
+|                       | [[00_Inbox/obsidian-cs-notes/VaultComputerScience/30_areas/virtualization/KubeVirt\|KubeVirt]] |             |                                      |
+|                       | [[Kustomize]]                                                                                  |             |                                      |
+|                       | [[Kyverno]]                                                                                    |             |                                      |
+|                       | [[00_Inbox/Linkerd\|Linkerd]]                                                                  |             |                                      |
+|                       | [[Logstash]]                                                                                   |             |                                      |
+|                       | [[Lucene]]                                                                                     |             |                                      |
+|                       | [[MetalLB]]                                                                                    |             |                                      |
+|                       | [[MOC cdk8s]]                                                                                  | 1           |                                      |
+|                       | [[MOC Kafka]]                                                                                  |             |                                      |
+|                       | [[MOC Redis]]                                                                                  |             |                                      |
+| Infra as code         | [[MOC Terraform]]                                                                              | 10          |                                      |
+| Secret Management     | [[MOC Vault]]                                                                                  | 10          |                                      |
+|                       | [[MongoDB]]                                                                                    |             |                                      |
+|                       | [[MySQL]]                                                                                      |             |                                      |
+| Overlay Network       | [[00_Inbox/Nebula\|Nebula]]                                                                    | 6           |                                      |
+|                       | [[Neuvector]]                                                                                  |             |                                      |
+|                       | [[Open Policy Agent]]                                                                          |             |                                      |
+|                       | [[OpenEBS]]                                                                                    |             |                                      |
+|                       | [[OpenZiti]]                                                                                   |             |                                      |
+|                       | [[PostgreSQL]]                                                                                 | 9           |                                      |
+|                       | [[Prometheus]]                                                                                 |             |                                      |
+|                       | [[Pulumi]]                                                                                     |             |                                      |
+|                       | [[RabbitMQ]]                                                                                   |             |                                      |
+|                       | [[RabbitMQ]]                                                                                   | 8           |                                      |
+|                       | [[Radius]]                                                                                     |             | https://radapp.io/                   |
+|                       | [[Restic]]                                                                                     |             |                                      |
+|                       | [[Rook]]                                                                                       |             |                                      |
+|                       | [[Rundeck]]                                                                                    |             |                                      |
+|                       | [[Semaphore]]                                                                                  |             |                                      |
+|                       | [[Skaffold]]                                                                                   |             |                                      |
+|                       | [[Tekton Pipelines]]                                                                           |             |                                      |
+|                       | [[Terragrunt]]                                                                                 |             |                                      |
+|                       | [[Terrakube]]                                                                                  |             |                                      |
+|                       | [[Terramate]]                                                                                  |             |                                      |
+|                       | [[Tilt]]                                                                                       |             |                                      |
+|                       | [[Tool - coroot]]                                                                              |             |                                      |
+|                       | [[Tool - Werf]]                                                                                |             |                                      |
+|                       | [[TriggerMesh]]                                                                                |             | https://www.triggermesh.com/         |
+| Vulnerability scanner | [[Trivy]]                                                                                      |             |                                      |
+|                       | [[vCluster]]                                                                                   | 2           | https://www.vcluster.com/            |
+|                       | [[Vector]]                                                                                     |             |                                      |
+| Backup                | [[Velero]]                                                                                     |             |                                      |
+|                       | [[VictoriaMetrics]]                                                                            |             |                                      |
+|                       | [[Wazuh]]                                                                                      |             |                                      |
+|                       | [[Zuul CI]]                                                                                    |             |                                      |
+|                       | [[LibreNMS]]                                                                                   |             | https://www.librenms.org/            |
+|                       | [[Longhorn]]                                                                                   |             | https://github.com/longhorn/longhorn |
+|                       | [[TiDB]]                                                                                       |             |                                      |
+|                       | [[KubeFlow]]                                                                                   |             | https://github.com/kubeflow/kubeflow |
 
 
 
